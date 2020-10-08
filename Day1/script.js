@@ -18,21 +18,21 @@ function validateform() {
 }
 
 
-   function focusandblur() {
-        //checking focus
-    for (i = 0; i < input.length; i++) {
-        input[i].addEventListener("focus", function(event) 
-        { 
-            // alert(input[i])
-           input[i].className="focus";
-        });
-        input[i].addEventListener("blur", function(event) 
-        { 
-           input[i].classList.remove('focus');
-        });
-    }
-   }
+//    function focusandblur() {
+//         //checking focus
+//     for (i = 0; i < input.length; i++) {
+//         input[i].addEventListener("focus", function(event) 
+//         { 
+//             // alert(input[i])
+//            input[i].className="focus";
+//         });
+//         input[i].addEventListener("blur", function(event) 
+//         { 
+//            input[i].classList.remove('focus');
+//         });
+//     }
+//    }
 
-   focusandblur();
+//    focusandblur();
 
 //    validateform()

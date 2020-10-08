@@ -40,8 +40,12 @@ input , .input{
 } */
 
 .focus{
-    /* border: 1px solid rgb(15, 96, 201); */
+    border: 1px solid rgb(15, 96, 201);
     /* border-color: rgb(15, 96, 201); */
+}
+
+.invalid{
+    border: 1px solid red;
 }
 .form{
     /* width: 100%; */

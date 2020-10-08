@@ -15,15 +15,24 @@ function validateform() {
       }
     }
 
+}
 
-    //checking focus
+
+   function focusandblur() {
+        //checking focus
     for (i = 0; i < input.length; i++) {
-        window.addEventListener("focus", function(event) 
+        input[i].addEventListener("focus", function(event) 
         { 
-           input[i].classList.add('focus');
-        }, false);
-        window.addEventListener("blur", function(event) 
+            // alert(input[i])
+           input[i].className="focus";
+        });
+        input[i].addEventListener("blur", function(event) 
         { 
            input[i].classList.remove('focus');
-        }, false);
-        }
+        });
+    }
+   }
+
+   focusandblur();
+
+//    validateform()

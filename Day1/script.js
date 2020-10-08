@@ -14,3 +14,16 @@ function validateform() {
         valid = false;
       }
     }
+
+
+    //checking focus
+    for (i = 0; i < input.length; i++) {
+        window.addEventListener("focus", function(event) 
+        { 
+           input[i].classList.add('focus');
+        }, false);
+        window.addEventListener("blur", function(event) 
+        { 
+           input[i].classList.remove('focus');
+        }, false);
+        }

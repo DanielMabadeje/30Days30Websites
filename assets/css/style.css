@@ -19,3 +19,8 @@ body{
 .header-title{
     font-size: 45px;
 }
+
+#day1{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../../Day1/asset/img/about.jpg");
+    background-size: cover;
+}

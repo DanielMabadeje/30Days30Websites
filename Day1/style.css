@@ -1,0 +1,138 @@
+body{
+    font-family: sans-serif;
+}
+
+.col-6{
+    width:50%;
+}
+.col-md-6{
+    width: 50%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    padding: 14px;
+}
+.main{
+    width: 100%;
+}
+#form{
+    width: 70%;
+}
+
+
+input , .input{
+    padding: 15px;
+    width: 100%;
+    border: 1px gray solid;
+    border-radius: 4px;
+}
+
+#select{
+    width:110%;
+}
+
+input, .input :hover:after:active{
+    border-color: rgb(15, 96, 201);
+}
+
+.form{
+    /* width: 100%; */
+    padding: 0 10%;
+}
+.text-left{
+    text-align: left;
+}
+
+.mx-auto{
+    margin:auto;
+    text-align: center;
+}
+
+.input-div{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.m-0{
+    margin: 0 !important;
+}
+
+label{
+    width: 100%;
+}
+
+.default-bg-color{
+    background-color: rgb(15, 96, 201);
+}
+
+.title{
+    color: rgb(15, 96, 201);
+    font-size: 30px;
+}
+
+#submit-btn{
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    color: white;
+}
+
+#submit-btn:hover{
+    background-color: rgb(0, 63, 235);
+}
+
+.d-md-flex{
+    display: flex;
+}
+
+
+.text-white{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+
+#image-text{
+    width: 80%;
+    text-align: left;
+}
+
+.caption{
+    font-size: 17px;
+}
+
+.caption-text{
+    margin-top:-30px;
+}
+
+#bg-image{
+    background: linear-gradient(rgba(0, 63, 235, 0), rgba(0, 63, 235, 0.644)), url("./asset/img/about.jpg");
+}
+
+.image-title{
+    font-size: 49px;
+    margin-top: 70%;
+    /* position: absolute; */
+}
+
+@media screen and (max-width:750px){
+    .d-md-flex{
+        display: block;
+    }
+
+    .col-md-6{
+        width: 100%;
+    }
+    .d-sm-none{
+        display: none;
+    }
+
+    #form{
+        width: 100%;
+    }
+}

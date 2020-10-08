@@ -1,0 +1,32 @@
+.container{
+    padding: 0 14px;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+li{
+    list-style-type: none;
+}
+.d-flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section{
+    padding: 40px;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+
+.text-white{
+    color: white;
+}

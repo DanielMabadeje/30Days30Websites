@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+
+.firstsection{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../img/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#header-text{
+    width: 70%;
+    padding-top: 10%;
+}
+
+.header-title{
+    font-size: 45px;
+}

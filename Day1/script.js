@@ -1,4 +1,5 @@
 const input=document.getElementsByTagName('input');
+const form=document.getElementById('form');
 
 
 function validateform() { 
@@ -35,4 +36,6 @@ function validateform() {
 
 //    focusandblur();
 
+
+form.addEventListener("submit", validateform());
 //    validateform()

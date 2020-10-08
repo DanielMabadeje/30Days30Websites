@@ -24,3 +24,13 @@ body{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../../Day1/asset/img/about.jpg");
     background-size: cover;
 }
+
+#socials{
+    align-self: center;
+    width: 10%;
+}
+
+a i{
+    color: gray;
+    margin: 1px;
+}

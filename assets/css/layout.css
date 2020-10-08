@@ -1,6 +1,7 @@
 .container{
     padding: 0 14px;
 }
+
 .mr-auto{
     margin-right: auto;
 }
@@ -85,8 +86,8 @@ li{
       
   } */
 
-  .content{
-    margin: 30% auto auto auto;
+  .day-content{
+    margin: 30% auto auto auto !important;
     
 }
 /* 

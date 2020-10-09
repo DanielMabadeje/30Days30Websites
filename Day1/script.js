@@ -37,5 +37,5 @@ function validateform() {
 //    focusandblur();
 
 
-form.addEventListener("submit", validateform());
+//form.addEventListener("submit", validateform());
 //    validateform()

@@ -2,6 +2,10 @@
     padding: 0 14px;
 }
 
+body{
+  background-color: whitesmoke;
+}
+
 .mr-auto{
     margin-right: auto;
 }
@@ -17,6 +21,13 @@ li{
 
 .text-center{
     text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
 }
 
 .section{
@@ -72,22 +83,9 @@ li{
 .card:hover .day-content{
     display: none;
 }
-/* .card-content span{
-    margin-top: 50%;
-}
-  .card-content{
-      /* padding: 12% auto auto auto; */
-      
-      /* position: absolute; */
-      
-      /* border-radius: 0 0 50% 50%; */
-      /* height: 100%; */
-      
-      
-  } */
-
-  .day-content{
-    margin: 30% auto auto auto !important;
+  .content{
+    /* margin: 30% auto auto auto !important; */
+    margin-top: 30%;
     
 }
 /* 

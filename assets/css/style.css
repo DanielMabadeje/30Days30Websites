@@ -38,7 +38,10 @@ li a{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../../Day1/asset/img/about.jpg");
     background-size: cover;
 }
-
+#day2{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../../Day2/assets/img/pexels-photo-1156684.jpeg");
+    background-size: cover;
+}
 #socials{
     align-self: center;
     width: 10%;

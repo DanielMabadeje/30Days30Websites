@@ -6,8 +6,4 @@ var configDate = "2018 01 01";
 var particles = true;
 
 $("#particles-js").backstretch([
-    "./assets/img/green-chameleon-s9CC2SKySJM-unsplash.jpg"
-    , "./assets/img/aaron-burden-y02jEX_B0O0-unsplash.jpg"
-    , "./assets/img/kat-stokes-BoYnwJ8lM54-unsplash.jpg"
-    , ".assets/img/photo-1488190211105-8b0e65b80b4e.jpg"
 ], {duration: 3000, fade: 2000});

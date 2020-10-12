@@ -42,6 +42,14 @@ li a{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../../Day2/assets/img/pexels-photo-1156684.jpeg");
     background-size: cover;
 }
+#day3{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url("../img/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+    background-size: cover;
+}
+#day4{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url('../../Day4/img/dariusz-sankowski-dvK_CT1Wg78-unsplash.jpg');
+    background-size: cover;
+}
 #socials{
     align-self: center;
     width: 10%;

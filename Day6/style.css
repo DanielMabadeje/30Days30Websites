@@ -1,0 +1,67 @@
+.mx-auto{
+    margin: auto;
+}
+
+body{
+    font-family: monospace;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+#navbar{
+    /* width: 70%; */
+    display: inline;
+    /* display: auto; */
+    /* display: flex; */
+}
+.text{
+    /* bottom:0; */
+    margin-top: 32%;
+    margin-bottom: 8%;
+    /* width: 70%; */
+    text-align: center;
+    color: white;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+}
+
+.landing-text{
+    color: white;
+    font-size:75px;
+    margin: 0;
+}
+.landing-subtitle{
+    font-size: 40px;
+    margin: 0;
+}
+#bg-image{
+    background: linear-gradient(rgba(7, 1, 1, 0.404), rgba(3, 3, 2, 0.925)), url('img/cel-lisboa-60315-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height:auto;
+    /* margin-top: 0; */
+    top: 0;
+    width: 100%;
+    position: absolute;
+}

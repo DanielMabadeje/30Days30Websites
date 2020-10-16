@@ -54,6 +54,9 @@ a {
     color: white;
 }
 
+.text-center{
+    text-align: center;
+}
 .input{
     padding: 19px;
     border: none;

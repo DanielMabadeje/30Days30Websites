@@ -26,7 +26,15 @@ console.log(dataFetched)
 }
 const getData=(data)=>{
    for(let photo of data.photos){
-  container.innerHTML+=`<div class="imgbox"><a href="${photo.src.original}" target="_blank"><img src="${photo.src.large}"></a><a class="photographer-link" href="${photo.photographer_url}" target="_blank"><span class="photographer-name">Photo by ${photo.photographer}</span></a></div>`;
+  container.innerHTML+=`<div class="floating-box">
+      <a href="${photo.src.original}" target="_blank">
+        <img src="${photo.src.large}">
+      </a>  
+      <a class="photographer-link" href="${photo.photographer_url}" target="_blank">
+        <h3 class="photographer-name">Photo by ${photo.photographer}</h3>
+      </a>
+      <div class="overlay"></div>
+    </div>`;
  }
  
 }

@@ -1,0 +1,77 @@
+.nav{
+    background-color: white;
+    color: gray;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+body{
+    font-family: sans-serif;
+}
+#navbar{
+    /* width: 70%; */
+    display: inline;
+    /* display: auto; */
+    /* display: flex; */
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+#bg-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url('./img/peter-luo-6BZrxp_bjnk-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height:auto;
+    /* margin-top: 0; */
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+    /* font-size: 23px; */
+    /* padding: 10px; */
+}
+
+.search{
+    /* bottom:0; */
+    margin-top: 20%;
+    margin-bottom: 12%;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.input{
+    padding: 19px;
+    border: none;
+    border-radius: 7px;
+}
+.text-left{
+    text-align: left;
+}
+.form-input{
+    width: 100%;
+}
+
+.d-flex{
+    /* display: flex; */
+}
+
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin: 0;
+}

@@ -30,10 +30,11 @@ const getData=(data)=>{
       <a href="${photo.src.original}" target="_blank">
         <img src="${photo.src.large}">
       </a>  
-      <a class="photographer-link" href="${photo.photographer_url}" target="_blank">
-        <h3 class="photographer-name">Photo by ${photo.photographer}</h3>
-      </a>
-      <div class="overlay"></div>
+      <div class="photographer">
+        <a class="photographer-link" href="${photo.photographer_url}" target="_blank">
+          <h3 class="photographer-name">Photo by ${photo.photographer}</h3>
+        </a>
+      </div>
     </div>`;
  }
  

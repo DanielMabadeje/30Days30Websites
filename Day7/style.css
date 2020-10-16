@@ -38,7 +38,7 @@ li{
     padding-bottom: 10px;
 }
 a {
-    margin: 10px;
+    /* margin: 10px; */
     text-decoration: none;
     color: gray;
     /* font-size: 23px; */
@@ -87,21 +87,20 @@ a img {
     width: 100%;
     margin: 0;
 }
-.photographer-link{
-    /* background: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.884),); */
+div.photographer{
     background: black;
-    height: 100%;
+    height: auto;
+    bottom: 0;
+    margin-top: -20%;
+    /* margin-top: 50%; */
 }
-/* .overlay{
-    background-color: black;
-    top: 0;
-} */
+
+
 a h3{
-    margin-top: -10%;
+    /* margin-top: -10%; */
 }
 
 .photos-container{
-    /* position: absolute; */
     bottom: 0;
     margin-top: 50%;
 }

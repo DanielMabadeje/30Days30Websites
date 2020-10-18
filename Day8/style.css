@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url('./img/WhatsApp Image 2020-10-16 at 02.41.21.jpeg');
+    background-size:cover;
+    z-index:-100;
+}
+
+.area{
+    font-size:15px;
+    font-weight:bold;
+}
+
+.one{
+    padding-left: 2%;
+}
+
+.name{
+    font-size: 280px;
+    padding-right: 25%;
+    text-align: right;
+}
+
+.det{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+    padding: 10%;
+}
+
+.imgarea{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+}
+
+.img{
+    width: 50%;
+    margin-top: 80px;
+}
+
+img{
+    width: 100%;
+}
+
+.right{
+    margin-left: 50%;
+}

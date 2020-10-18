@@ -9,7 +9,7 @@
 }
 .back{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url('./img/WhatsApp Image 2020-10-16 at 02.41.21.jpeg');
     background-size:cover;
@@ -57,4 +57,27 @@ img{
 
 .right{
     margin-left: 50%;
+}
+
+
+@media screen and (max-width:700px){
+    .imgarea{
+        padding: 0;
+    }
+    .one{
+        padding-left: 0;
+    }
+    .name{
+        font-size: 100px;
+        /* padding-right: 25%; */
+        /* text-align: right; */
+    }
+    .area{
+        font-size:100px;
+        font-weight:bold;
+        width: 70%;
+        text-align: center;
+        height:100%;
+        padding-top: 20%;
+    }
 }

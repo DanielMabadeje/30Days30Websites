@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css"  crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Day 9</title>
 </head>
 <body>
@@ -31,6 +32,10 @@
 			</div>
 
 			<button class="btn btn-secondary col-4" id="showbtn">Show More Info</button>
+
+			<div class="socials">
+				<a class="nav-link text-dark"><i class="fa fa-facebook"></i></a>
+			</div>
         </section>
     </section>
 
@@ -53,6 +58,7 @@
 
 			showbtn.onclick = function (){
 				speedrow.style.display="block";
+				showbtn.style.display="none"
 			}
 			
 			// The size in bytes 

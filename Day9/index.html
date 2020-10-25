@@ -33,7 +33,7 @@
 
 			<button class="btn btn-secondary col-4" id="showbtn">Show More Info</button>
 
-			<div class="socials">
+			<div class="socials"  id="socials" style="display: none;">
 				<a class="nav-link text-dark" href="https://twitter.com/DanielsMabadeje"><i class="fa fa-facebook"></i></a>
 				<a class="nav-link text-dark" href="https://www.facebook.com/daniel.mabadeje.56/"><i class="fa fa-twitter"></i></a>
 				<a class="nav-link text-dark" href=""><i class="fa fa-instagram"></i></a>
@@ -55,6 +55,7 @@
 			var kbpsdiv=document.getElementById('kbps')
 			var mbpsdiv=document.getElementById('mbps')
 			var finalresult =document.getElementById('finalresult');
+			var socials =document.getElementById('socials');
 
 			var bps;
 			var speedInKbps;
@@ -63,6 +64,7 @@
 			showbtn.onclick = function (){
 				speedrow.style.display="block";
 				showbtn.style.display="none"
+				socials.style.display="block"
 			}
 			
 			// The size in bytes 

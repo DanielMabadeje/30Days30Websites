@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css"  crossorigin="anonymous">
     <title>Day 9</title>
 </head>
 <body>
@@ -11,8 +12,25 @@
     <section>
         <section class="mx-auto col-md-7 text-center">
             <div>
-                <h3>Your Internet Speed is</h3>
-            </div>
+                <h3>Internet Checker</h3>
+			</div>
+			<div class="mt-5">
+				<h3>Your Internet Speed is</h3>
+				<span class=" text-dark" id="finalresult" style="font-size: 250px;">0</span>
+				<span style="font-size: 70px;" id="speedtype"></span>
+			</div>
+
+			<div style="display: none;" id="speedrow">
+				<div class="row">
+					<div class="col-4"><h3 id="bps">0</h3>bps</div>
+					<div class="col-4"><h3 id="kbps">0</h3>kbps</div>
+					<div class="col-4"><h3 id="mbps">0</h3>mbps</div>
+				</div>
+
+				<h3 id="timestart"></h3>
+			</div>
+
+			<button class="btn btn-secondary col-4" id="showbtn">Show More Info</button>
         </section>
     </section>
 
@@ -21,6 +39,21 @@
     	<script type="text/javascript"> 
 			var userImageLink = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200714180638/CIP_Launch-banner.png"; 
 			var time_start, end_time; 
+			var starttimediv=document.getElementById('timestart')
+			var showbtn = document.getElementById("showbtn")
+			var speedrow=document.getElementById("speedrow")
+			var bpsdiv=document.getElementById('bps')
+			var kbpsdiv=document.getElementById('kbps')
+			var mbpsdiv=document.getElementById('mbps')
+			var finalresult =document.getElementById('finalresult');
+
+			var bps;
+			var speedInKbps;
+			var speedInMbps;
+
+			showbtn.onclick = function (){
+				speedrow.style.display="block";
+			}
 			
 			// The size in bytes 
 			var downloadSize = 5616998; 
@@ -32,22 +65,63 @@
 			}; 
 			time_start = new Date().getTime(); 
 			downloadImgSrc.src = userImageLink; 
-			document.write("time start: " + time_start); 
-			document.write("<br>"); 
+			starttimediv.innerHTML="time start: " + time_start + "<br>"
+			//document.write("time start: " + time_start); 
+			//document.write("<br>"); 
 
+			
 			function displaySpeed() { 
 				var timeDuration = (end_time - time_start) / 1000; 
 				var loadedBits = downloadSize * 8; 
 				
 				/* Converts a number into string 
 				using toFixed(2) rounding to 2 */
-				var bps = (loadedBits / timeDuration).toFixed(2); 
-				var speedInKbps = (bps / 1024).toFixed(2); 
-				var speedInMbps = (speedInKbps / 1024).toFixed(2); 
-				alert("Your internet connection speed is: \n"
-					+ bps + " bps\n" + speedInKbps 
-					+ " kbps\n" + speedInMbps + " Mbps\n"); 
+				bps = (loadedBits / timeDuration).toFixed(2); 
+				speedInKbps = (bps / 1024).toFixed(2); 
+				speedInMbps = (speedInKbps / 1024).toFixed(2); 
+				//alert("Your internet connection speed is: \n"
+				//	+ bps + " bps\n" + speedInKbps 
+				//	+ " kbps\n" + speedInMbps + " Mbps\n"); 
+
+					bpsdiv.innerHTML=bps
+					kbpsdiv.innerHTML=speedInKbps
+					mbpsdiv.innerHTML=speedInMbps
+
+
+					gettotalresult()
+					//var t = setTimeout(startTime, 500);
 			} 
+
+			function gettotalresult(){
+				if(checkifmbps(speedInMbps)){
+					finalresult.innerHTML=speedInMbps
+					document.getElementById('speedtype').innerHTML="Kbps"
+				}else if(checkifkbps(speedInKbps)){
+					finalresult.innerHTML=speedInKbps
+					document.getElementById('speedtype').innerHTML="Kbps"
+				}else{
+					finalresult.innerHTML=speedInbps
+					document.getElementById('speedtype').innerHTML="bps"
+				}
+
+			}
+
+
+			function checkifmbps(param){
+				if(param > 0){
+					return true;
+				}else{
+					return false;
+				}
+			}
+
+			function checkifkbps(param){
+				if(param > 0){
+					return true;
+				}else{
+					return false;
+				}
+			}
 		</script> 
 </body>
 </html>

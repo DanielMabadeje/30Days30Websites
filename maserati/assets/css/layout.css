@@ -24,6 +24,10 @@ body {
 
 
 
+.text-tint-blue {
+  color: #0675ff;
+}
+
 
 .bg-black{
   background-color: black !important;

@@ -1,5 +1,5 @@
 body {
-  overflow: hidden; /* Hide scrollbars */
+  /* overflow: hidden; Hide scrollbars */
 }
 
 /* width */
@@ -48,7 +48,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 4%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -156,4 +156,13 @@ html {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
     -webkit-tap-highlight-color: transparent;
+}
+
+
+.bg-darker{
+  background-color: #090909;
+}
+
+.color-yellow{
+  color:#feb23e
 }

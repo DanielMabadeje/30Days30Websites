@@ -6,12 +6,15 @@ var maincontent=document.getELementById("main");
 var sticky = maincontent.offsetTop - 75;
 
 
-function myFunction() {
+function toggleSidenav() {
   if (window.pageYOffset >= sticky) {
-    sidenavbar.classList.add("sticky");
-    sidenavbar.classList.remove("not-fixed")
+    sidenavbar.classList.add("sidenav-fixed");
+    sidenavbar.classList.remove("sidenav-none")
   } else {
-    sidenavbar.classList.add("not-fixed")
-    sidenavbar.classList.remove("sticky");
+    sidenavbar.classList.add("sidenav-fixed")
+    sidenavbar.classList.remove("sidenav-fixed");
   }
 }
+
+
+toggleSidenav();

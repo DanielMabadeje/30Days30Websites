@@ -149,6 +149,19 @@ html {
   background-color: #090909;
 }
 
+.bg-a-bit-light{
+  background-color: rgb(236, 236, 236);
+}
+
 .color-yellow{
   color:#feb23e
+}
+
+.border-bottom-white{
+  border-bottom: 2.8px white solid;
+}
+
+.heading-serif em{
+  font-size: 1em;
+  font-family:cambon,sans-serif;
 }

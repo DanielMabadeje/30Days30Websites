@@ -16,7 +16,21 @@
     padding-top: 60px;
     /* display: none; */
   }
-  
+
+
+  .sidenav-fixed{
+      position:fixed;
+      top:0;
+  }
+
+  .sidenav-black{
+      background:black;
+      color:white;
+  }
+  .sidenav-white{
+      background-color: white;
+      color:black;
+  }
 
   /* .engineshow{
       cursor: ;

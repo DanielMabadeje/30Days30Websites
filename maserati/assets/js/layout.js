@@ -1,15 +1,17 @@
 // This will contain animations ,styling of sidenavs etc
 
-var about = document.getElementById("about-section");
-var sticky = about.offsetTop - 75;
+// var about = document.getElementById("about-section");
+var sidenavbar=document.getElementById("sidenav")
+var maincontent=document.getELementById("main");
+var sticky = maincontent.offsetTop - 75;
 
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    navbar.classList.remove("not-fixed")
+    sidenavbar.classList.add("sticky");
+    sidenavbar.classList.remove("not-fixed")
   } else {
-    navbar.classList.add("not-fixed")
-    navbar.classList.remove("sticky");
+    sidenavbar.classList.add("not-fixed")
+    sidenavbar.classList.remove("sticky");
   }
 }

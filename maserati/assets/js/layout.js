@@ -2,7 +2,7 @@
 
 // var about = document.getElementById("about-section");
 var sidenavbar=document.getElementById("sidenav")
-var maincontent=document.getELementById("main");
+var maincontent=document.getElementById("main");
 var sticky = maincontent.offsetTop - 75;
 
 

@@ -15,11 +15,16 @@
     /* display: none; */
   }
 
+  .sidenav-none{
+      display:none;
+  }
+
 
   .sidenav-fixed{
       position:fixed;
       top:0;
       left:0;
+      display: block;
   }
 
   .sidenav-black{

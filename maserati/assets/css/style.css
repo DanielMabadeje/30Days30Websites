@@ -6,11 +6,11 @@
 .sidenav {
     height: 100%;
     width: 4%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
     top: 0;
     /* left: 0; */
-    background-color: #111;
+    background-color: transparent;
     /* overflow-x: hidden; */
     transition: 0.5s;
     padding-top: 60px;

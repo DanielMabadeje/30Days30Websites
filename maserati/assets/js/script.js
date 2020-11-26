@@ -19,15 +19,15 @@ $('.center').slick({
     centerPadding: '0',
     slidesToShow: 1,
     responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '10px',
-          slidesToShow: 1
-        }
-      }
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '10px',
+    //       slidesToShow: 1
+    //     }
+    //   }
     //   ,
     //   {
     //     breakpoint: 1193,

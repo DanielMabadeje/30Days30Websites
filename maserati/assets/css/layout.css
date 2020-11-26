@@ -64,7 +64,7 @@ body {
 }
 @media screen and (min-width: 480px)
 {
-  .heading-01 {
+  .heading-serif {
     font-size: calc(50px + 50*(100vw - 480px)/960);
 }
 }
